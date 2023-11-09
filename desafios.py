@@ -16,11 +16,17 @@ A Revolução dos Bichos
 Crime e Castigo
 Macunaíma"""
 
-#print(lista) = virou lista
-#print(lista[0]) = da pra acessar linha por linha
-#print(len(lista)) = 9
+lista = titulos.split('\n') # separar a lista com a função split, usando como marcador \n (quebra de linha).
 
-lista = titulos.split('\n')
-lista_ordenada = sorted(lista)
+lista_ordenada = sorted(lista) # com a lista separada, usamos a função sorted para por em ordem alfabética.
 
-print(lista_ordenada)
+print(lista) # lista desordenada
+
+print(lista_ordenada) # lista ordenada
+
+# Saída lista desordenada:
+# ['O Senhor dos Anéis', 'Harry Potter e a Pedra Filosofal', '1984', 'O Lobo da Estepe', 'Cem Anos de Solidão', 'A Metamorfose', 'A Revolução dos Bichos', 'Crime e Castigo', 'Macunaíma']
+
+# Saída lista ordenada:
+# ['1984', 'A Metamorfose', 'A Revolução dos Bichos', 'Cem Anos de Solidão', 'Crime e Castigo', 'Harry Potter e a Pedra Filosofal', 'Macunaíma', 'O Lobo da Estepe', 'O Senhor dos Anéis']
+
