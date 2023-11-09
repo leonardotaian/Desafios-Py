@@ -1,4 +1,3 @@
-# A ideia desses pequenos desafios é usar somente a documentação oficial da linguagem para resolver, isolando o uso de códigos prontos e dicas, apenas no que se refere a lógica e uso produtivo de funções e bibliotecas que no meu ver é de suma importância para desenvolver ou analisar um código complexo e extenso.
 
 # 1 — Ordenar Títulos
 # Desafio:
@@ -17,10 +16,11 @@ A Revolução dos Bichos
 Crime e Castigo
 Macunaíma"""
 
-lista = titulos.split('\n')
-
 #print(lista) = virou lista
-
 #print(lista[0]) = da pra acessar linha por linha
-
 #print(len(lista)) = 9
+
+lista = titulos.split('\n')
+lista_ordenada = sorted(lista)
+
+print(lista_ordenada)
